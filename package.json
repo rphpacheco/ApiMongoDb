@@ -1,0 +1,33 @@
+{
+  "name": "api_mongo",
+  "version": "1.0.0",
+  "description": "API para fornecimento dos dados vindos do mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start server.js --name backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rphpacheco/apiMongoDB.git"
+  },
+  "keywords": [
+    "api",
+    "mongoDB"
+  ],
+  "author": "Raphael Pacheco",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "consign": "^0.1.4",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.27"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "bugs": {
+    "url": "https://github.com/rphpacheco/apiMongoDB/issues"
+  },
+  "homepage": "https://github.com/rphpacheco/apiMongoDB#readme"
+}
